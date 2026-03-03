@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────
+# requirements.txt — Classification Pipeline
+# AWS + MLflow + Evidently
+# Python >= 3.10 recommended
+# ─────────────────────────────────────────────
+
+
+# ── Core Data & ML ─────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.4.2
+xgboost==2.0.3
+lightgbm==4.3.0
+joblib==1.4.2
+
+
+# ── Kaggle ─────────────────────────────────────
+kaggle>=1.6.14
+
+
+# ── MLflow (Tracking + Registry) ───────────────
+mlflow==2.12.2
+boto3==1.34.101
+s3fs==2024.3.1
+
+
+# ── AWS ────────────────────────────────────────
+awscli==1.32.101
+botocore==1.34.101
+
+
+# ── FastAPI Serving ────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.1
+
+
+# ── Evidently (Drift Monitoring) ───────────────
+evidently==0.4.30
+
+
+# ── Utilities ──────────────────────────────────
+python-dotenv==1.0.1
+PyYAML==6.0.1
+requests>=2.32.0               # evidently requires >=2.32.0
+tqdm==4.66.4
+matplotlib>=3.7.0
+
+
+# ── Dev / Testing ──────────────────────────────
+pytest==8.2.0
+httpx==0.27.0

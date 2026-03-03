@@ -1,0 +1,8 @@
+                 precision    recall  f1-score   support
+
+Not Transported       0.81      0.82      0.81       863
+    Transported       0.82      0.81      0.81       876
+
+       accuracy                           0.81      1739
+      macro avg       0.81      0.81      0.81      1739
+   weighted avg       0.81      0.81      0.81      1739
