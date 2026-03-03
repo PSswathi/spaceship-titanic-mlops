@@ -132,7 +132,7 @@ mlflow ui --backend-store-uri mlruns --port 5001
 
 Open in browser: http://localhost:5001
 
-> Screenshot: MLflow experiment runs and metrics
+> Screenshot: MLflow_metrics.png, mlflow_training_runs.png and mlflow_training.png
 
 ---
 
@@ -189,6 +189,8 @@ Or open Swagger UI in browser: http://localhost:8000/docs
 
 > Screenshot: FastAPI Swagger UI and prediction response
 
+The screenshots in the folder fastapi_predictions.png
+
 ---
 
 ### Phase 4 - Dockerize
@@ -222,6 +224,8 @@ docker logs spaceship-titanic-app
 Open in browser: http://localhost:8000/docs
 
 > Screenshot: Docker Desktop showing running container and health check response
+
+The screenshots are placed in screenshots/docker folder
 
 
 ---
@@ -309,6 +313,8 @@ Or open in browser: http://<EC2_IP>:8000/docs
 
 > Screenshot: Swagger UI running on EC2 public IP
 
+The screenshots are placed under screenshots/fastapi_ec2 folder
+
 ---
 
 ### Phase 6 - Monitor with Evidently
@@ -365,17 +371,19 @@ Expected output:
 
 > Screenshot: Evidently drift report showing feature distributions in browser
 
+Monitoring results are placed under the reports folder.
+
 
 ## Screenshots
 
 | Step | Screenshot |
 |---|---|
-| MLflow training runs | screenshots/mlflow_runs.png |
-| FastAPI Swagger UI (local) | screenshots/fastapi_local.png |
-| Docker Desktop container | screenshots/docker_running.png |
+| MLflow training runs | screenshots/mlflow_*.png |
+| FastAPI Swagger UI (local) | screenshots/fastapi_predictions/fastapi_*.png |
+| Docker Desktop container | screenshots/docker/docker_*.png |
 | Terraform apply output | screenshots/terraform_apply.png |
-| FastAPI Swagger UI (EC2) | screenshots/fastapi_ec2.png |
-| Evidently drift report | screenshots/evidently_drift.png |
+| FastAPI Swagger UI (EC2) | screenshots/fastapi_ec2/fastapi_*.png |
+| Evidently drift report | screenshots/reports/data_drift_report.html |
 
 ---
 
