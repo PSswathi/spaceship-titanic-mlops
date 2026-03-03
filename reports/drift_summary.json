@@ -1,0 +1,7 @@
+{
+  "share_of_drifted_columns": 0.0,
+  "number_of_drifted_columns": 0,
+  "number_of_columns": 26,
+  "dataset_drift": false,
+  "drift_detected": false
+}
